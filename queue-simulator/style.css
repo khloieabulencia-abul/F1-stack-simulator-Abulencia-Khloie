@@ -1,0 +1,62 @@
+body {
+    background-color: #495579;
+}
+
+/* Queue container */
+#queue {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-height: 100px;
+    padding: 10px;
+}
+
+/* Queue elements */
+.queue-item {
+    min-width: 75px;
+    min-height: 65px;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    word-break: break-word;
+}
+
+/* Deleted queue elements */
+#dequeued {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Deleted item blocks */
+.pop {
+    width: 50px;
+    min-height: 50px;
+    border-radius: 5px;
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Highlight front element during Peek */
+.peek {
+    background-color: gold !important;
+    color: black !important;
+}
+
+/* Custom background colors */
+.bg-7B8FA1 {
+    background-color: #7B8FA1;
+}
+
+.bg-9C254D {
+    background-color: #9C254D;
+}
